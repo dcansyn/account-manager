@@ -60,6 +60,7 @@
             // TimerReader
             // 
             this.TimerReader.Enabled = true;
+            this.TimerReader.Interval = 2000;
             this.TimerReader.Tick += new System.EventHandler(this.TimerReader_Tick);
             // 
             // GroupBoxInformations
@@ -217,6 +218,7 @@
             this.TextBoxAnswer.Name = "TextBoxAnswer";
             this.TextBoxAnswer.Size = new System.Drawing.Size(204, 20);
             this.TextBoxAnswer.TabIndex = 1059;
+            this.TextBoxAnswer.Text = "cansyn";
             // 
             // ComboBoxDay
             // 
@@ -505,6 +507,7 @@
             this.TextBoxPassword.Name = "TextBoxPassword";
             this.TextBoxPassword.Size = new System.Drawing.Size(204, 20);
             this.TextBoxPassword.TabIndex = 40;
+            this.TextBoxPassword.Text = "Pass223";
             // 
             // LabelUserName
             // 
@@ -522,6 +525,7 @@
             this.TextBoxUsername.Name = "TextBoxUsername";
             this.TextBoxUsername.Size = new System.Drawing.Size(168, 20);
             this.TextBoxUsername.TabIndex = 10;
+            this.TextBoxUsername.Text = "kosyn";
             this.TextBoxUsername.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxUsername_KeyPress);
             // 
             // TextBoxNavigate

@@ -32,7 +32,7 @@ namespace AccountManager.UI.Events
                 form.ButtonStart.Enabled = App.BrowserIsReady && !string.IsNullOrEmpty(form.TextBoxEmail.Text) && form.TextBoxEmail.Text != "...";
 
                 if (form._browser.Address.Contains("mail.tm"))
-                    form._browser.GetElementValue("#address").ContinueWith(x =>
+                    form._browser.GetElementValue("#DontUseWEBuseAPI").ContinueWith(x =>
                     {
                         var mailAddress = x?.Result?.Result?.ToString();
                         if (!string.IsNullOrEmpty(mailAddress) && form.TextBoxEmail.InvokeRequired)

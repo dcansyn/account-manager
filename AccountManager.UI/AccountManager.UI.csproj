@@ -93,6 +93,7 @@
     <Compile Include="Extensions\BrowserJavascriptExtensions.cs" />
     <Compile Include="Extensions\MemoryStreamExtensions.cs" />
     <Compile Include="Extensions\ResponseExtensions.cs" />
+    <Compile Include="Filters\CustomStreamResponseFilter.cs" />
     <Compile Include="FormCreator.cs">
       <SubType>Form</SubType>
     </Compile>

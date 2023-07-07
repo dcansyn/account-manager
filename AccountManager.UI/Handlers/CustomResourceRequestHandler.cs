@@ -2,6 +2,7 @@
 using AccountManager.Core.Models;
 using AccountManager.Core.Services;
 using AccountManager.UI.Extensions;
+using AccountManager.UI.Filters;
 using CefSharp;
 using CefSharp.Handler;
 using CefSharp.ResponseFilter;
@@ -28,7 +29,7 @@ namespace AccountManager.UI.Handlers
             try
             {
                 memoryStream = new MemoryStream();
-                return new StreamResponseFilter(memoryStream);
+                return new CustomStreamResponseFilter(memoryStream);
             }
             catch (Exception)
             {

@@ -525,7 +525,6 @@
             this.TextBoxUsername.Name = "TextBoxUsername";
             this.TextBoxUsername.Size = new System.Drawing.Size(168, 20);
             this.TextBoxUsername.TabIndex = 10;
-            this.TextBoxUsername.Text = "kosyn";
             this.TextBoxUsername.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxUsername_KeyPress);
             // 
             // TextBoxNavigate
